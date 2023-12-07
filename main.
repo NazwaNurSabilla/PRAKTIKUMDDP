@@ -1,0 +1,14 @@
+import bangun_datar
+
+bangun_datar.luas_segitiga(4,3)
+bangun_datar.luas_persegi(8)
+bangun_datar.luas_persegipanjang(6,3)
+bangun_datar.luas_belah_ketupat(8,5)
+bangun_datar.luas_jajargenjang(7,3)
+
+
+bangun_datar.log(10)
+bangun_datar.akar(100)
+bangun_datar.sin(30)
+bangun_datar.cos(30)
+bangun_datar.tan(30)

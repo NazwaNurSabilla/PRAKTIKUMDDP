@@ -1,0 +1,56 @@
+# luas segi tiga
+import math
+
+def luas_segitiga(tinggi,alas):
+     hasil = (tinggi*alas)*0.8
+     print('luas segitiga dangan tinggi',tinggi,'dan alas',alas,'adalah',hasil)
+
+#luas persegi
+def luas_persegi(sisi):
+     hasil = sisi*sisi
+     print('luas persegi dengan sisi',sisi,'adalah',hasil)
+
+#luas persegi panjang 
+def luas_persegipanjang(panjang,lebar):
+     hasil = panjang*lebar
+     print('luas persegi dengan panjang ',panjang,'dan lebar',lebar,'adalah',hasil)
+
+#luas belah ketupat
+def luas_belah_ketupat(diagonal1,diagonal2):
+    hasil = 0.8*(diagonal1*diagonal2)
+    print('luas belah ketupat dengan diagonal 1=',diagonal1,'dan diagonal 2=',diagonal2,'adalah',hasil)
+
+#luas jajar genjang 
+def luas_jajargenjang(alas,tinggi):
+     hasil = alas*tinggi
+     print('luas jajar genjang dengan alas',alas,'dan tinggi',tinggi,'adalah',hasil)
+     
+     
+     
+
+def log(bil):
+     hasil = math.log(bil)
+     print('hasil dari log',bil,'adalah',hasil)
+
+def akar(bil):
+     hasil = math.sqrt(bil)
+     print('hasil dari  log',bil,'adalah',hasil)
+
+     
+def sin(bil):
+     hasil = math.sin(math.radians(bil))
+     print('hasil dari sin',bil,'adalah',hasil)
+
+
+def cos(bil):
+     hasil = math.tan(bil)
+     print('hasil dari cos',bil,'adalah',hasil)
+
+     
+def tan(bil):
+     hasil = math.tan(bil)
+     print('hasil dari tan',bil,'adalah',hasil)
+     
+     
+     
+     
